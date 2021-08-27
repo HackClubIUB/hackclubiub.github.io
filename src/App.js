@@ -1,9 +1,12 @@
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hack Club IUB</h1>
+      <header className="App-header">
+        <Header />
+      </header>
     </div>
   );
 }
