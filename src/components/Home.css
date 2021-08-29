@@ -15,3 +15,29 @@
 .home__about > h1 {
   color: #e42d42;
 }
+
+.home__panels {
+  display: flex;
+}
+
+.panel {
+  width: 350px;
+  margin: 20px;
+  border: 1px solid rgb(68, 68, 68);
+}
+
+.panel > h4 {
+  background-color: rgb(26, 26, 26);
+  padding: 15px 10px 15px 10px;
+  color: #e42d42;
+}
+
+.panel > p {
+  padding: 15px 10px 15px 10px;
+  background-color: #464646;
+}
+
+.panel__link {
+  color: #e42d42;
+  text-decoration: none;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUsers, faTrophy, faHeart } from '@fortawesome/free-solid-svg-icons';
 import './Home.css';
 
 const Home = () => {
@@ -15,6 +17,46 @@ const Home = () => {
           world. We maintain a active community where we discuss healthy topics
           and grow together.
         </p>
+      </div>
+      <div className='home__panels'>
+        <div className='panel'>
+          <h4>
+            <FontAwesomeIcon icon={faUsers} /> Vision & Mission
+          </h4>
+          <p>
+            Our mission is to enable students to take part in competitive and
+            collaborative coding activities. Our vision is to maintain a healthy
+            community for coders at IUB.
+          </p>
+        </div>
+        <div className='panel'>
+          <h4>
+            <FontAwesomeIcon icon={faTrophy} /> Projects & achievements
+          </h4>
+          <p>
+            We take part in domestic and international events. All the
+            achievements and information about the projects done by Hack
+            Clubbers are posted in{' '}
+            <a href='/' className='panel__link'>
+              projects & achievements page
+            </a>
+            .
+          </p>
+        </div>
+        <div className='panel'>
+          <h4>
+            <FontAwesomeIcon icon={faHeart} /> Safe
+          </h4>
+          <p>
+            We always make sure that our community is a safe space for all kinds
+            of audiences. We have a set of rules that we expect all our members
+            to follow. The rules are listed{' '}
+            <a href='#Rules' className='panel__link'>
+              here
+            </a>
+            .
+          </p>
+        </div>
       </div>
     </div>
   );
