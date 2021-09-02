@@ -1,0 +1,29 @@
+.rules {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules__desc {
+  text-align: center;
+  max-width: 60%;
+}
+
+.rules__desc > h1 {
+  color: #e42d42;
+}
+
+.club__rules {
+  margin-top: 50px;
+  max-width: 80%;
+}
+
+.club__rule {
+  padding-top: 30px;
+}
+
+.club__rule > h2 {
+  color: #e42d42;
+}

@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
+import Rules from './components/Rules';
 import Team from './components/Team';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       </header>
       <Home />
       <Team />
+      <Rules />
     </div>
   );
 }
