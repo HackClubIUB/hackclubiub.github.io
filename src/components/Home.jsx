@@ -9,7 +9,7 @@ const Home = () => {
       <div className='home__about'>
         <h1>Welcome to Hack Club IUB!</h1>
         <p>
-          Hack Club SKCET is the coding community of The Islamia University of
+          Hack Club IUB is the coding community of The Islamia University of
           Bahawalpur. We are a chapter of hackclub.com. Hacker, technologist,
           entrepreneur, coder, geek, pro or noob - Hack Club IUB welcomes you to
           be a part of our fam. We encourage students to take part in various
