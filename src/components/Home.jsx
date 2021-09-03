@@ -58,6 +58,35 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <div className='home__panels'>
+        <div className='panel'>
+          <h4>
+            <FontAwesomeIcon icon={faUsers} /> Perfect Coding Environment
+          </h4>
+          <p>
+            We provide a perfect coding enviromnemt to learn and grow at your
+            comfort zone. And maintain an active community of coders.
+          </p>
+        </div>
+        <div className='panel'>
+          <h4>
+            <FontAwesomeIcon icon={faTrophy} /> Regular Workshops
+          </h4>
+          <p>
+            We conduct regular workshops on recent tech to give students a
+            knowledge about what going on.
+          </p>
+        </div>
+        <div className='panel'>
+          <h4>
+            <FontAwesomeIcon icon={faHeart} /> Guidance and Mentorship
+          </h4>
+          <p>
+            We have mentors with us who are ready to guide you always! Reach out
+            to us for any help.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
