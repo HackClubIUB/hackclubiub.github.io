@@ -1,6 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUsers, faTrophy, faHeart } from '@fortawesome/free-solid-svg-icons';
+import {
+  faUsers,
+  faTrophy,
+  faHeart,
+  faCode,
+  faWindowRestore,
+  faUserSecret,
+} from '@fortawesome/free-solid-svg-icons';
 import './Home.css';
 
 const Home = () => {
@@ -61,7 +68,7 @@ const Home = () => {
       <div className='home__panels'>
         <div className='panel'>
           <h4>
-            <FontAwesomeIcon icon={faUsers} /> Perfect Coding Environment
+            <FontAwesomeIcon icon={faCode} /> Perfect Coding Environment
           </h4>
           <p>
             We provide a perfect coding enviromnemt to learn and grow at your
@@ -70,7 +77,7 @@ const Home = () => {
         </div>
         <div className='panel'>
           <h4>
-            <FontAwesomeIcon icon={faTrophy} /> Regular Workshops
+            <FontAwesomeIcon icon={faWindowRestore} /> Regular Workshops
           </h4>
           <p>
             We conduct regular workshops on recent tech to give students a
@@ -79,7 +86,7 @@ const Home = () => {
         </div>
         <div className='panel'>
           <h4>
-            <FontAwesomeIcon icon={faHeart} /> Guidance and Mentorship
+            <FontAwesomeIcon icon={faUserSecret} /> Guidance and Mentorship
           </h4>
           <p>
             We have mentors with us who are ready to guide you always! Reach out
@@ -87,6 +94,10 @@ const Home = () => {
           </p>
         </div>
       </div>
+      <a href='/' className='redbutton homered'>
+        <FontAwesomeIcon icon={faUsers} />
+        Join Us
+      </a>
     </div>
   );
 };
