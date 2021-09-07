@@ -1,0 +1,37 @@
+.footer {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  margin-bottom: 50px;
+}
+
+.table__header {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.head {
+  padding: 0px 30px 0px 30px;
+}
+
+.table__data {
+  padding: 10px 50px 0px 50px;
+  text-align: center;
+}
+
+.table__data > a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  font-size: 20px;
+}
+
+.table__data > a:hover {
+  color: #e42d42;
+  text-decoration: underline;
+}

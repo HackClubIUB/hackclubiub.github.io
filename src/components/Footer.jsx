@@ -2,26 +2,28 @@ import React from 'react';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
+import './Footer.css';
+
 const Footer = () => {
   return (
-    <div>
-      <table>
-        <tr>
-          <th>Hack Club IUB</th>
-          <th>Hack Club</th>
-          <th>Connect with us!</th>
-          <th>Talk to us!</th>
+    <div className='footer'>
+      <table className='table'>
+        <tr className='table__header'>
+          <th className='head'>Hack Club IUB</th>
+          <th className='head'>Hack Club</th>
+          <th className='head'>Connect with us!</th>
+          <th className='head'>Talk to us!</th>
         </tr>
         <tr>
-          <td>
+          <td className='table__data'>
             <a href='/'>Workshops</a>
           </td>
-          <td>
+          <td className='table__data'>
             <a href='https://hackclub.com/' target='_blank' rel='noreferrer'>
               Website
             </a>
           </td>
-          <td>
+          <td className='table__data'>
             <a
               href='https://www.instagram.com/hackclubiub/'
               target='_blank'
@@ -30,15 +32,15 @@ const Footer = () => {
               <InstagramIcon /> Instagram
             </a>
           </td>
-          <td>
+          <td className='table__data'>
             <a href='mailto:hackclubiub@gmail.com'>hackclubiub@gmail.com</a>
           </td>
         </tr>
         <tr>
-          <td>
+          <td className='table__data'>
             <a href='/'>Projects</a>
           </td>
-          <td>
+          <td className='table__data'>
             <a
               href='https://hackclub.com/press/'
               target='_blank'
@@ -47,15 +49,18 @@ const Footer = () => {
               Press
             </a>
           </td>
-          <a
-            href='https://github.com/HackClubIUB'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <GitHubIcon /> GitHub
-          </a>
+          <td className='table__data'>
+            <a
+              href='https://github.com/HackClubIUB'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <GitHubIcon /> GitHub
+            </a>
+          </td>
         </tr>
       </table>
+      <p>&copy; Hack Club IUB {new Date().getFullYear()}</p>
     </div>
   );
 };
