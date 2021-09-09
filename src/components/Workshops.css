@@ -1,0 +1,28 @@
+.Workshops {
+  margin-top: 60px;
+  text-align: center;
+  padding: 100px;
+}
+
+.workshops__header > h1 {
+  color: #e42d42;
+  font-size: 40px;
+}
+
+.workshops__header > p {
+  font-size: 20px;
+}
+
+.workshops__upcoming {
+  padding: 50px;
+}
+
+.workshops__upcoming > h2 {
+  color: #e42d42;
+  text-decoration: underline;
+}
+
+.workshops__past > h2 {
+  color: #e42d42;
+  text-decoration: underline;
+}
