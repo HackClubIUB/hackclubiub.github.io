@@ -11,16 +11,19 @@ const Header = () => {
       </div>
       <div className='header__list'>
         <ul>
-          <a href='#Home' className='header__icon'>
+          <a href='/' className='header__icon'>
             <li>Home</li>
           </a>
-          <a href='#Team' className='header__icon'>
+          <a href='/Workshops' className='header__icon'>
+            <li>Workshops</li>
+          </a>
+          <a href='/#Team' className='header__icon'>
             <li>Team</li>
           </a>
-          <a href='#Rules' className='header__icon'>
+          <a href='/#Rules' className='header__icon'>
             <li>Rules</li>
           </a>
-          <a href='#Faqs' className='header__icon'>
+          <a href='/#Faqs' className='header__icon'>
             <li>Faqs</li>
           </a>
           <a href='/' className='redbutton'>

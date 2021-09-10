@@ -5,6 +5,13 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Rules from './components/Rules';
 import Team from './components/Team';
+import Workshops from './components/Workshops';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  Switch
+} from 'react-router-dom';
 
 function App() {
   return (
@@ -12,10 +19,20 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <Home />
-      <Team />
-      <Rules />
-      <Faqs />
+      <Router>
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+            <Team />
+            <Rules />
+            <Faqs />
+          </Route>
+          <Route path="/Workshops" exact>
+            <Workshops />
+          </Route>
+          <Redirect to="/" />
+        </Switch>
+      </Router>
       <footer>
         <Footer />
       </footer>
