@@ -17,6 +17,9 @@ const Header = () => {
           <a href='/Workshops' className='header__icon'>
             <li>Workshops</li>
           </a>
+          <a href='/Projects' className='header__icon'>
+            <li>Projects</li>
+          </a>
           <a href='/#Team' className='header__icon'>
             <li>Team</li>
           </a>

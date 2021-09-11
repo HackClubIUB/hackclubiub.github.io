@@ -38,7 +38,7 @@ const Footer = () => {
         </tr>
         <tr>
           <td className='table__data'>
-            <a href='/'>Projects</a>
+            <a href='/Projects'>Projects</a>
           </td>
           <td className='table__data'>
             <a
