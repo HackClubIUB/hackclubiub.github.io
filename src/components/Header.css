@@ -45,10 +45,22 @@
 }
 
 .header__img > img {
-  height: 50px;
+  height: 60px;
   cursor: pointer;
+  margin-top: -8px;
 }
 
 .fa-users {
   margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .MuiPaper-root {
+    background-color: #252429 !important;
+  }
+
+  .MuiPaper-root > div > div > a > li {
+    list-style: none !important;
+    padding: 10px 20px 10px 20px;
+  }
 }
