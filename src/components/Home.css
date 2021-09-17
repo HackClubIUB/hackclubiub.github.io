@@ -47,3 +47,14 @@
   color: white;
   padding: 20px 30px 20px 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  .home__about {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .home__panels {
+    flex-direction: column;
+  }
+}
