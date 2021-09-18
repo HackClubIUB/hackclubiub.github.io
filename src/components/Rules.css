@@ -27,3 +27,13 @@
 .club__rule > h2 {
   color: #e42d42;
 }
+
+@media only screen and (max-width: 600px) {
+  .rules {
+    padding: 10px;
+  }
+
+  .rules__desc {
+    max-width: 90%;
+  }
+}
