@@ -35,3 +35,9 @@
   color: #e42d42;
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+  .table {
+    display: none;
+  }
+}

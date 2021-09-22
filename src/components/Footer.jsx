@@ -29,7 +29,8 @@ const Footer = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <InstagramIcon /> Instagram
+              <InstagramIcon />
+              &nbsp;Instagram
             </a>
           </td>
           <td className='table__data'>
@@ -55,7 +56,8 @@ const Footer = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <GitHubIcon /> GitHub
+              <GitHubIcon />
+              &nbsp;GitHub
             </a>
           </td>
         </tr>
