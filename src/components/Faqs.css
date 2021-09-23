@@ -31,6 +31,10 @@
     padding: 20px;
   }
 
+  .faq__card {
+    flex-direction: column;
+  }
+
   .faqCard__body {
     padding: 10px;
   }
