@@ -12,6 +12,7 @@ import {
   Redirect,
   Switch
 } from 'react-router-dom';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/Workshops" exact>
             <Workshops />
+          </Route>
+          <Route path="/Projects" exact>
+            <Projects />
           </Route>
           <Redirect to="/" />
         </Switch>

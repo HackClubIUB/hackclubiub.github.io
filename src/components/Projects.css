@@ -1,0 +1,24 @@
+.projects {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.projects > h1 {
+  color: #e42d42;
+  font-size: 40px;
+}
+
+.projects > p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .projects {
+    padding: 30px;
+  }
+}
